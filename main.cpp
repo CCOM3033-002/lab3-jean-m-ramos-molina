@@ -14,7 +14,7 @@ int main ()
 
     // Crear variables
 
-    int numeroAleatorio1 = rand() % (33 - 1 + 1) + 1;
+    int numeroAleatorio1 = rand() % (33 - 0 + 1) + 0;
     int numeroAleatorio2 = rand() % (66 - 34 + 1) + 34;
     int numeroAleatorio3 = rand () % (100 - 35 + 1) + 35;
 
@@ -57,7 +57,7 @@ int main ()
                 // Caso 4: numeroAleatorio2 mayor igual que numeroAleatorio3 y numeroAleatorio3 mayor igual que numeroAleatorio1 
                 // Orden: 2, 3, 1
 
-                if  (numeroAleatorio2 >= numeroAleatorio3 && numeroAleatorio3 >= numeroAleatorio1) {
+                else {
 
                     // Mostrar resultados del caso 4
                     cout << "Orden descendiente: " << numeroAleatorio2 << " >= " << numeroAleatorio3 << " >= " << numeroAleatorio1 << endl;
@@ -65,16 +65,9 @@ int main ()
                 }
 
 
-                // Caso 5: numeroAleatorio3 mayor igual que numeroAleatorio1 y numeroAleatorio1 mayor igual que numeroAleatorio2
-                // Orden: 3, 1, 2
+        
 
-                    else {
-
-                    // Mostrar resultados del caso 5
-
-                 cout << "Orden descendiente: " << numeroAleatorio3 << " >= " << numeroAleatorio1 << " >= " << numeroAleatorio2 << endl;
-
-                     }
+                    
     
 // FIN 
      
